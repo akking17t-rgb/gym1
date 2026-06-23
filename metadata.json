@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Gold Gym Quetta Digital Portal",
+  "description": "A cinematic, high-contrast single-page website featuring neon green accents and comprehensive fitness sections for Gold Gym Quetta.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

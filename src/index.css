@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Playfair+Display:ital,wght@1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-serif: "Playfair Display", Georgia, serif;
+  
+  --color-neon: #AAFF00;
+  --color-neon-dark: #82C200;
+}
+
+/* Custom Text Stroke Utilities for beautiful outlines */
+.text-stroke-neon {
+  -webkit-text-stroke: 1.5px #AAFF00;
+  color: transparent;
+}
+
+@media (min-width: 640px) {
+  .text-stroke-neon {
+    -webkit-text-stroke: 2px #AAFF00;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
